@@ -14,6 +14,7 @@
         <module>SpringDemo</module>
         <module>SpringBootDemo</module>
         <module>SpringCloudDemo</module>
+        <module>NetworkDemo</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
