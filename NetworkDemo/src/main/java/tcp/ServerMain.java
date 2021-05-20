@@ -16,7 +16,7 @@ public class ServerMain {
         while (true) {
             Socket accept = socket.accept();
             System.out.println("connected from " + accept.getRemoteSocketAddress());
-            Thread thread = new Handle(accept);
+            Thread thread = new Handle(accept);// 新建一个线程来处理这个连接
             thread.start();
         }
     }
