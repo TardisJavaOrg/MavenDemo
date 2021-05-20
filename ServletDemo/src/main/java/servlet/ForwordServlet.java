@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 /**
- * 转发，由服务器端控制，不需要浏览器端像重定向一样再次发送请求
+ * 转发，由服务器端控制，不需要浏览器端向重定向一样再次发送请求
  */
 @WebServlet(urlPatterns = "/forword")
 public class ForwordServlet extends HttpServlet {
