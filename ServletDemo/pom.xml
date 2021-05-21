@@ -41,12 +41,5 @@
             <version>${tomcat.version}</version>
 <!--            <scope>provided</scope>-->
         </dependency>
-
-        <!--  lombok 免去了 写getter setter方法   -->
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.16</version>
-        </dependency>
     </dependencies>
 </project>
