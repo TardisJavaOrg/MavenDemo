@@ -1,4 +1,4 @@
-package structure.factoryMethodMode.staticFactoryMethod;
+package structure.factory.staticFactoryMethodMode;
 
 import java.math.BigDecimal;
 

@@ -3,7 +3,7 @@ package structure.decoratorMode;
 /**
  * @author timothy
  * @data 2021年05月21日 8:35 下午
- * 抽象装饰器
+ * 具体装饰器，可以有多种装饰器，用来装饰 Component
  */
 public class ConcreteDecorator extends Decorator {
 

@@ -3,7 +3,7 @@ package structure.adapterMode.classAdapter;
 /**
  * @author timothy
  * @data 2021年05月21日 4:40 下午
- * 第三方code
+ * 第三方 类
  */
 public class OtherClass {
     public void specificRequest() {
