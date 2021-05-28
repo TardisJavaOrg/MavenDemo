@@ -13,6 +13,9 @@ public class Director {
         this.builder = builder;
     }
 
+    /**
+     * 构建 具体建造者
+     */
     public Product construct() {
         builder.builderPartA();
         builder.builderPartB();

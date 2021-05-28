@@ -4,6 +4,7 @@ package creation.builderMode;
  * @author timothy
  * @data 2021年05月21日 3:38 下午
  * 建造者模式
+ * 当产品当构建很复杂当时候可以使用这种模式
  * 屏蔽 商品的常见细节，通过调度者 调度builder 构建 商品
  */
 public class Main {
