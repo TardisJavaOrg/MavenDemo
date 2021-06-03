@@ -1,4 +1,4 @@
-package creation.abstractFactoryMode;
+package creation.factory.abstractFactoryMode;
 
 public class SupplierBAli implements ProductB {
     @Override

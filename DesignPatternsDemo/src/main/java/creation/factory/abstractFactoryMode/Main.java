@@ -1,4 +1,4 @@
-package creation.abstractFactoryMode;
+package creation.factory.abstractFactoryMode;
 
 /**
  * 抽象工厂模式

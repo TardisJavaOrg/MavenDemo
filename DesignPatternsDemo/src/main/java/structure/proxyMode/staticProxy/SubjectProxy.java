@@ -9,6 +9,8 @@ package structure.proxyMode.staticProxy;
  * 便于测试，一次只测试一个功能
  */
 public class SubjectProxy implements Subject {
+
+    // 代理模式 需要持有被代理的 对象
     private Subject subject;
 
 
@@ -22,11 +24,18 @@ public class SubjectProxy implements Subject {
         postMethod();
     }
 
+    /**
+     * 代理前执行
+     */
+    private void preMethod() {
+        System.out.println("pre method");
+    }
+
+    /**
+     * 代理后执行
+     */
     private void postMethod() {
         System.out.println("post method");
     }
 
-    private void preMethod() {
-        System.out.println("pre method");
-    }
 }

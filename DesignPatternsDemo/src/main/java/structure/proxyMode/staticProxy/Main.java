@@ -7,8 +7,7 @@ package structure.proxyMode.staticProxy;
  */
 public class Main {
     public static void main(String[] args) {
-        Subject subject = new RealSubject();
-        SubjectProxy subjectProxy = new SubjectProxy();
-        subjectProxy.method1();
+        Subject subject = new SubjectProxy();
+        subject.method1();
     }
 }

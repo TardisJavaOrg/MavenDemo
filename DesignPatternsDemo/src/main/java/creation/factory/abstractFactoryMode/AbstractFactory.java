@@ -1,4 +1,4 @@
-package creation.abstractFactoryMode;
+package creation.factory.abstractFactoryMode;
 
 /**
  * 工厂是抽象的，产品也是抽象的

@@ -1,4 +1,4 @@
-package structure.factory.factoryMethodMode;
+package creation.factory.factoryMethodMode;
 
 /**
  * @author timothy
