@@ -26,6 +26,8 @@
         <module>UncollatedCode</module>
         <module>tkMybatisDemo</module>
         <module>BeetlDemo</module>
+        <module>NioDemo</module>
+        <module>XxlJobDemo</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

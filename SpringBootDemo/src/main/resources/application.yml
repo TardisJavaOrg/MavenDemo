@@ -1,2 +1,18 @@
 server:
   port: 8181
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/maven_demo?serverTimezoneGMT%2B8
+    username: root
+    password: 123456
+
+mybatis:
+  type-aliases-package: com.huixiong.model
+  mapper-locations: classpath:mapper/*.xml
+
+# 支持 枚举扫描
+mybatis-plus:
+  # 支持统配符 * 或者 ; 分割
+  typeEnumsPackage: cn.facedupid.enums
