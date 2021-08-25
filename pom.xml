@@ -30,6 +30,7 @@
         <module>XxlJobDemo</module>
         <module>SpringAopDemo</module>
         <module>SpringBootTestDemo</module>
+        <module>JwtDemo</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

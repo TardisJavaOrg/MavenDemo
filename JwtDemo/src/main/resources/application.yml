@@ -1,0 +1,8 @@
+server:
+  port: 8888
+
+jwt:
+  tokenHeader: Authorization # JWT 存储的请求头
+  secret: tardis
+  expiration: 604800 # 60*60*24 过期时间
+  tokenHead: Bearer
